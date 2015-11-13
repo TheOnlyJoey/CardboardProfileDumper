@@ -8,6 +8,7 @@ The only dependencies are std and protobuf.
 Google utilizes protobuf to save and load the profiles of Cardboard based devices.
 
 I added a compile.sh file which is basically:
+
     g++ CardboardProfileDumper.cpp CardboardDevice.pb.cc -o CardboardProfileDumper -lprotobuf
   
 ## Using ##
